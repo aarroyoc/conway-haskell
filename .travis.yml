@@ -1,0 +1,7 @@
+language: haskell
+before_install:
+ - curl -sSL https://get.haskellstack.org/ | sh
+install:
+ - stack setup
+script:
+ - stack build
