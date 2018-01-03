@@ -1,4 +1,4 @@
-module Reader where
+module Reader (readVacaFile) where
 
 import System.IO
 import qualified Data.Matrix as Matrix
