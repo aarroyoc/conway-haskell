@@ -1,10 +1,10 @@
 name:                conway-haskell
 version:             0.1.0.0
-github:              "githubuser/conway-haskell"
+github:              "aarroyoc/conway-haskell"
 license:             BSD3
-author:              "Author name here"
+author:              "Adrian Arroyo Calle"
 maintainer:          "example@example.com"
-copyright:           "2018 Author name here"
+copyright:           "2018 Adrian Arroyo Calle"
 
 extra-source-files:
 - README.md
