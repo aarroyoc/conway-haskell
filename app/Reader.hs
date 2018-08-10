@@ -1,7 +1,7 @@
 module Reader (readVacaFile) where
 
-import System.IO
 import qualified Data.Matrix as Matrix
+import           System.IO
 
 readVacaFile :: IO (Matrix.Matrix Int)
 readVacaFile = do
@@ -13,6 +13,6 @@ readVacaFile = do
     return matrix
 
 buildMatrix :: Int -> Int -> [String] -> Matrix.Matrix Int
-buildMatrix alto ancho m = Matrix.matrix alto ancho builder 
+buildMatrix alto ancho m = Matrix.matrix alto ancho builder
     where
         builder (i,j) = if (m !! (i-1)) !! (j-1) == 'X' then 1 else 0
